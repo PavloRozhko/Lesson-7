@@ -1,0 +1,179 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+/* ========= Статья для испытания фона  =========*/
+.header-top {
+  background: url(../img/bg.jpg) 0 0 / auto repeat;
+  padding: 10px;
+  height: 100vh;
+}
+.top-title {
+  text-align: center;
+  font-size: 76px;
+  line-height: 130%;
+  font-weight: 900;
+  color: #fff;
+  background: linear-gradient(90deg, rgba(50, 72, 67, 1) 0%, rgba(67, 176, 152, 1) 50%);
+  outline: 2px solid #fff;
+  border-radius: 10px;
+}
+.main-content {
+  padding: 25px 10px;
+  background: linear-gradient(
+      180deg,
+      rgba(53, 108, 95, 0.9) 0%,
+      rgba(78, 128, 117, 0.7) 10%,
+      rgba(78, 128, 117, 0.6029762246695554) 20%,
+      rgba(11, 49, 46, 0.49653364763874297) 80%
+    ),
+    url(../img/homer.png) bottom right / auto no-repeat;
+  /* height: 100vh;  не работает когда много контента, срабатывает overflow: hidden*/
+}
+.main-text {
+  color: #fff;
+  padding: 0 0 10px 0;
+}
+.main-list li {
+  color: #fff;
+  padding: 0 0 10px 30px;
+  background: url(../img/mark.png) 0 0 / auto no-repeat;
+}
+.footer-wrap {
+  background: url(../img/lisa.png) 0 bottom / auto no-repeat,
+    linear-gradient(
+      0deg,
+      rgba(41, 88, 77, 1) 0%,
+      rgba(46, 87, 78, 0.9) 10%,
+      rgba(59, 102, 93, 0.8) 20%,
+      rgba(74, 125, 115, 0.7) 30%,
+      rgba(70, 132, 122, 0.6) 40%,
+      rgba(57, 112, 106, 0.5) 50%,
+      rgba(46, 97, 92, 0.4) 60%,
+      rgba(45, 93, 90, 0.3) 70%,
+      rgba(25, 50, 48, 0.2) 80%,
+      rgba(14, 30, 28, 0.1) 90%,
+      rgba(11, 49, 46, 1) 100%
+    );
+  color: #356c5f;
+  font-weight: 700;
+}
+.footer-text {
+  text-align: center;
+  padding: 25px 10px;
+}
+.footer-link {
+  padding: 35px;
+  color: #fff;
+  text-align: right;
+}
+.footer-link a {
+  display: inline-block;
+  background: #686377;
+  padding: 10px 20px;
+  border-radius: 7.5px;
+  box-shadow: -7px -7px 40px 12px rgba(53, 108, 95, 0.8);
+}
+/* ============= общий стиль =============== */
+.title-color {
+  color: #1e212c;
+}
+.list li {
+  padding: 0 0 0 32px;
+  background: url(../img/vector.png) 0 7px / auto no-repeat;
+}
+/* ============= первая часть макета =============== */
+.article {
+  max-width: 840px;
+  margin: 10px auto 50px;
+}
+.article-title {
+  margin: 0 0 26px 0;
+  font-size: 46px;
+  line-height: 130%;
+  font-weight: 900;
+}
+.article-atributes {
+  margin: 0 0 40px 0;
+  color: #787a80;
+}
+.date {
+  display: inline-block;
+  margin: 0 24px 0 0;
+  padding: 0 0 0 24px;
+  background: url(../img/calendar.png) 0 5px / auto no-repeat;
+}
+.time {
+  display: inline-block;
+  padding: 0 0 0 24px;
+  background: url(../img/clock.png) 0 5px / auto no-repeat;
+}
+.article-subtitle,
+.article-comment {
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 700;
+}
+.article-img {
+  margin: 0 0 60px 0;
+}
+.picture {
+  width: auto;
+}
+.article-subtitle {
+  margin: 0 0 24px 0;
+}
+.indent {
+  padding: 0 0 24px 0;
+}
+.ident1 {
+  margin: 0 0 48px 0;
+}
+.article-comment {
+  margin: 0 0 48px 0;
+  padding: 0 0 0 58px;
+  background: url(../img/braces.png) 0 0 / auto no-repeat;
+}
+.ident2 {
+  padding: 0 0 12px 0;
+}
+.article-items {
+  margin: 0 0 24px 0;
+}
+/* ============= вторая часть макета ============= */
+.about {
+  max-width: 408px;
+  margin: 10px auto;
+}
+.about-subtitle {
+  margin: 0 0 8px 0;
+  line-height: 150%;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.about-tile {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 130%;
+  margin: 0 0 40px 0;
+}
+.about-list {
+  margin: 0 0 48px 0;
+}
+.about-button {
+  display: inline-block;
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px 32px;
+}
